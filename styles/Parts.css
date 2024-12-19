@@ -1,0 +1,143 @@
+body{
+  margin:0;
+  overflow-x: hidden;
+}
+.start{
+  background-color:black;
+  height:30px;
+}
+.navbar{
+  list-style-type: none;
+  margin-left:350px;
+  margin-top:-50px;
+}
+.logo{
+  width:70px;
+  margin-left:80px;
+}
+.navbar a{
+  color:black;
+  text-decoration: none;
+  font-size:20px;
+}
+.nav-item{
+  float:left;
+  margin-right:60px;
+}
+.img{
+  background-image: url('../Images/bikeshero.jpg');
+  margin-top:40px;
+  position:relative;
+  height:400px;
+  background-repeat:no-repeat;
+  border: 1px solid black;
+}
+.hero h1{
+  position:absolute;
+  top:200px;
+  color:white;
+  font-size:30px;
+  width:700px;
+  text-align:center;
+  padding-left:110px;
+}
+.category{
+  padding-top:20px;
+}
+.category h1{
+  padding-left:130px;
+  font-size:30px;
+}
+.category-cover{
+  display:flex;
+  padding-left:110px;
+}
+.category-set img{
+  width:350px;
+  padding-left:20px;
+}
+.seat img{
+  width:700px;
+}
+.seat{
+  padding-left:130px;
+  padding-top:40px;
+}
+.parts-cover{
+  display:flex;
+  padding-left:100px;
+}
+.parts-set img{
+  width:220px;
+}
+.parts-set h3,p{
+  width:220px;
+}
+.parts-set{
+  padding-left:25px;
+}
+.parts h2{
+  padding-left:128px;
+  font-size:30px;
+}
+.img-1{
+  background-image: url('../Images/Parts7.jpg');
+  background-repeat: no-repeat;
+  position:relative;
+  height:500px;
+}
+.bike h3{
+  position:absolute;
+  top:2100px;
+  left:50px;
+  color:white;
+}
+.bike p{
+  position:absolute;
+  left:50px;
+  top:2080px;
+  color:orange;
+}
+.key{
+  padding-top:20px;
+}
+.key img{
+  width:700px;
+  padding-left:130px;
+}
+.key h2{
+  padding-left:130px;
+}
+.key h4{
+  padding-left:130px;
+  font-size:20px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+.footer h2{
+  padding-left: 380px;
+  padding-top: 20px;
+}
+.footer hr{
+  width: 800px;
+}
+.footer-row{
+  color: white;
+  display: flex;
+}
+.set{
+  padding-left: 90px;
+}
+.set1{
+  padding-left: 100px;
+}
+.end{
+  width:825px;
+  color:grey;
+  font-size:15px;
+  text-align:center;
+  padding-left:70px;
+}

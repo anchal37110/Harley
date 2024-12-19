@@ -1,0 +1,141 @@
+body{
+  margin:0;
+  overflow-x: hidden;
+}
+.start{
+  background-color:black;
+  height:30px;
+}
+.navbar{
+  list-style-type: none;
+  margin-left:350px;
+  margin-top:-50px;
+}
+.logo{
+  width:70px;
+  margin-left:80px;
+}
+.navbar a{
+  color:black;
+  text-decoration: none;
+  font-size:20px;
+}
+.nav-item{
+  float:left;
+  margin-right:60px;
+}
+.img{
+  background-image: url('../Images/slider1.jpg');
+  margin-top:40px;
+  position:relative;
+  height:400px;
+  background-repeat:no-repeat;
+  border: 1px solid black;
+}
+.hero h1,p, .button{
+  position:absolute;
+}
+.hero h1{
+  top:80px;
+  left:20px;
+  color:white;
+  font-size:60px;
+}
+.hero p{
+  top:190px;
+  left:20px;
+  color:white;
+}
+.button{
+  top: 240px;
+  left:20px;
+  color:black;
+  border: 1px solid white;
+  background-color:white;
+  padding:10px 20px;
+  border-radius:8px;
+  text-decoration: none;
+}
+.line{
+  padding-top:10px;
+  padding-left:50px;
+}
+.line-list{
+  list-style-type: none;
+  padding-bottom:20px;
+}
+.line-li{
+  float:left;
+  padding-left:20px;
+  font-size:17px;
+}
+.products{
+  background-color:#F2F0EF;
+  height:600px;
+  border:2px solid grey;
+}
+.products h2{
+  padding-top:40px;
+  padding-left:75px;
+  font-size:40px;
+}
+.card img{
+  width: 250px;
+  border-radius:4px;
+}
+.card h3{
+  width:300px;
+}
+.card p{
+  width:270px;
+}
+.catalog{
+  display:flex;
+  padding-left:75px;
+}
+.shop-card{
+  padding-left:40px;
+}
+.shop-card img{
+   width:187px;
+}
+.shop-card h3{
+  width:187px;
+}
+.shop-catalog{
+  display:flex;
+  padding-left:30px;
+}
+.shop h2{
+  font-size: 40px;
+  padding-left:70px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+.footer h2{
+  padding-left: 380px;
+  padding-top: 20px;
+}
+.footer hr{
+  width: 800px;
+}
+.footer-row{
+  color: white;
+  display: flex;
+}
+.set{
+  padding-left: 90px;
+}
+.set1{
+  padding-left: 100px;
+}
+.end{
+  width:825px;
+  color:grey;
+  font-size:15px;
+  text-align:center;
+  padding-left:70px;
+}

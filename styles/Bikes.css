@@ -1,0 +1,100 @@
+body{
+  margin:0;
+  overflow-x: hidden;
+}
+.start{
+  background-color:black;
+  height:30px;
+}
+.navbar{
+  list-style-type: none;
+  margin-left:350px;
+  margin-top:-50px;
+}
+.logo{
+  width:70px;
+  margin-left:80px;
+}
+.navbar a{
+  color:black;
+  text-decoration: none;
+  font-size:20px;
+}
+.nav-item{
+  float:left;
+  margin-right:60px;
+}
+.img{
+    background-image: url('../Images/bikeshero.jpg');
+  margin-top:40px;
+  position:relative;
+  height:400px;
+  background-repeat:no-repeat;
+  border: 1px solid black;
+}
+.hero h1{
+    position:absolute;
+    top:100px;
+    left:20px;
+    font-size:40px;
+    color:white;
+}
+.set-cover{
+    display:flex;
+}
+.second-set{
+    display:flex;
+}
+.catalogue h2{
+    padding-left:450px;
+    font-size:35px;
+}
+.set{
+    padding-left:15px;
+}
+.set img{
+    width:470px;
+}
+.set p{
+    width:470px;
+}
+.full img{
+    width:960px;
+    height:650px;
+}
+.full{
+    padding-top:15px;
+    margin-left:10px;
+}
+.full p{
+    width:960px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+.footer h2{
+  padding-left: 380px;
+  padding-top: 20px;
+}
+.footer hr{
+  width: 800px;
+}
+.footer-row{
+  color: white;
+  display: flex;
+}
+.set-footer{
+  padding-left: 90px;
+}
+.set1{
+  padding-left: 100px;
+}
+.end{
+  width:825px;
+  color:grey;
+  font-size:15px;
+  text-align:center;
+  padding-left:70px;
+}
